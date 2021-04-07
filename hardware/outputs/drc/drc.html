@@ -1,0 +1,476 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+            padding: 0.3em;
+        }
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+        body {
+			font-family : segoe ui;
+        }
+
+        td, th {
+            padding: 0.5em;
+			text-align : left;
+			width: 10em;
+        }
+        th {
+			background-color : #EEEEEE;
+
+        }
+        th.column1, td.column1 {
+            text-align: left;
+            width : auto;
+        }
+        table {
+            width : 100%;
+			font-size: 0.9em;
+        }
+        
+        .DRC_summary_header {                           
+            padding-bottom : 0.1em;
+            border : 0px solid black;                           
+            width: 100%;
+			align: left;
+        }
+
+        .DRC_summary_header_col1, 
+        .DRC_summary_header_col2, 
+        .DRC_summary_header_col3  {
+            color : black;
+            font-size:100%;
+                        padding : 0em;
+            padding-top : 0.2em;
+            padding-bottom 0.2em;
+            border : 0px solid black;
+            vertical-align: top;
+			text-align: left;
+        }
+        
+        .DRC_summary_header_col1 {                              
+			font-weight: bold;
+			width: 8em;
+        }
+
+        .DRC_summary_header_col2 {       
+			width: 0.1em;
+		
+        }
+
+        .DRC_summary_header_col3 {       
+			width : auto;
+        }
+
+        .header_holder  {
+        Width = 100%;
+        border = 0px solid green;
+        padding = 0;
+        }
+        
+        
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+            left:0;
+            top:0;
+			padding: 0em;
+            padding-top : 0.1em;            
+            border : 0px solid black;
+            width : 100%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .front_matter_column1 {
+            width : 8em;   
+			font-weight: bold;
+        }
+        
+        .front_matter_column2 {
+            width: 0.1em;
+        }
+
+        .front_matter_column3 {
+            width         : auto;  
+        }
+        
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+			text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+			background-color : #white;
+        }
+        tr.onmouseout_even { 
+			background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e; 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Templates\AD_logo.png
+        "><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">26/03/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16:28:34</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:04</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc" class="file"><acronym title="C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc">C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">46</td></tr>
+</table>
+</td>
+</table><a name="IDN0B3YMU2OQIAOHEYQ1NGLULDEPBJHUYSMCCZRNGKKY2V035OMHWC"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDV51SNYWTEB0ZE5YAPX4RMANEFT2ZGWLPC1CSRI02WSZV5O0M4BF">Clearance Constraint (Gap=0.178mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDU54UU4J2HDXWMT3G3NLN5BMBGMPG1RYRWA1NSVPBUD0D54A05OFL">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSB5KIYUXA1TXB5DDWTOK3ULIABB5BXQW3TF44JKVCDS0BD0KSBGB">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFIKPYMYBVA5HMXBYYCFHHZ2N3OJ0DQ42JTQO0PF2ICOAYETIKBEF">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1ETWTQZ2V22ZL04RRAVBKMJ0NBBI55WJ0N2ULFDKPN0RFW20GHT">Width Constraint (Min=0.203mm) (Max=0.762mm) (Preferred=0.381mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4YHODOFAII0YPVMJNLEFG2QCIOB0YKVHGORXQMRUFGGIS1NG14D">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX22FL2GDCMQAEIPZQ5SZCS2QQDOGMXX4FQ2ZBTOQX4FVK0DERNCP">Hole Size Constraint (Min=0.025mm) (Max=5.08mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFTTCETHWNYJ2L5LKY3FTUFJDPGIIQBSTPHRNXMIOHDLNM41MEVJ">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVHSRACW4FYBMINJH2RGBBH2EZGT1QX2GZ5PCANOKVPZ3UW05HYK">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWN1WZJIURBO0JEKO3BTMSDCPPLSMZ2GFH4C4FDJRVLN55HCNZG2D">Silk To Solder Mask (Clearance=0mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBJGQDXRXIF4CEKZPLQCAJMLDNLMNTOIVN0YS0IE3MCIMWC2QENLG">Silk to Silk (Clearance=0.127mm) (All),(All)</a></td>
+<td class="column2">46</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCVXEDXO3Q2ERDX021SEDBVSS4MGNCXTGDLF0NQG4J1UM135TPITJ">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIBGB1SB0A4ZHKR0MFBHV1NGAEOHZJPBWZEAQGYBVHJBCK5WYBT2L">Matched Lengths(Tolerance=25.4mm) (InDifferentialPairClass('DIFF_120_2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDDTP2320ENOLPXOBGKYJD2CAIFHWWVWV5G1IC1NMNXEE1JDOYKXM">Matched Lengths(Tolerance=4mm) (InDifferentialPairClass('DIFF120'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUMAA3TJNHE2IKO0LJFCNKP4L2HIFANJ535ECP2DUCTM1LCN0UJWH">Matched Lengths(Tolerance=4mm) (InDifferentialPairClass('DIFF90'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGRYIVC04LD3NB5GVSDBVWUCZZL2MFPAPNW3UK2NHQREYQBCMKFMO">Matched Lengths(Tolerance=25.4mm) (InDifferentialPairClass('DIFF_120_1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDSQ2KTDBEHJCEPHVAG5BUUST2CIE2IKY5YZCIMJGGOPRQHF1NLF">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">46</td>
+</tr>
+</table><br><a name="IDBJGQDXRXIF4CEKZPLQCAJMLDNLMNTOIVN0YS0IE3MCIMWC2QENLG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.127mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11015.155mil|Location2.X=11022.488mil|Location1.Y=4599.552mil|Location2.Y=4610.124mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11015.155mil|Location2.X=11022.488mil|Location1.Y=4599.552mil|Location2.Y=4610.124mil|Absolute=True">Silk To Silk Clearance Constraint: (0.124mm &lt; 0.127mm) Between Text "1" (279.923mm,116.992mm) on Top Overlay And Text "H" (278.459mm,116.992mm) on Top Overlay Silk Text to Silk Clearance [0.124mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12091.274mil|Location2.X=12097.524mil|Location1.Y=4602.847mil|Location2.Y=4609.097mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12091.274mil|Location2.X=12097.524mil|Location1.Y=4602.847mil|Location2.Y=4609.097mil|Absolute=True">Silk To Silk Clearance Constraint: (0.113mm &lt; 0.127mm) Between Text "2" (307.256mm,116.992mm) on Top Overlay And Text "H" (305.792mm,116.992mm) on Top Overlay Silk Text to Silk Clearance [0.113mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.279mil|Location2.X=11013.529mil|Location1.Y=3215.693mil|Location2.Y=3221.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.279mil|Location2.X=11013.529mil|Location1.Y=3215.693mil|Location2.Y=3221.943mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "3" (279.717mm,81.462mm) on Top Overlay And Text "4" (278.669mm,81.462mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.387mil|Location2.X=11013.637mil|Location1.Y=2516.357mil|Location2.Y=2522.607mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.387mil|Location2.X=11013.637mil|Location1.Y=2516.357mil|Location2.Y=2522.607mil|Absolute=True">Silk To Silk Clearance Constraint: (0.108mm &lt; 0.127mm) Between Text "4" (278.669mm,63.697mm) on Top Overlay And Text "8" (279.717mm,63.697mm) on Top Overlay Silk Text to Silk Clearance [0.108mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.645mil|Location2.X=11013.895mil|Location1.Y=2871.582mil|Location2.Y=2877.832mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.645mil|Location2.X=11013.895mil|Location1.Y=2871.582mil|Location2.Y=2877.832mil|Absolute=True">Silk To Silk Clearance Constraint: (0.121mm &lt; 0.127mm) Between Text "4" (278.669mm,72.58mm) on Top Overlay And Text "6" (279.717mm,72.58mm) on Top Overlay Silk Text to Silk Clearance [0.121mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.279mil|Location2.X=11013.529mil|Location1.Y=3040.843mil|Location2.Y=3047.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11007.279mil|Location2.X=11013.529mil|Location1.Y=3040.843mil|Location2.Y=3047.093mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "4" (278.669mm,77.021mm) on Top Overlay And Text "5" (279.717mm,77.021mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12083.765mil|Location2.X=12090.015mil|Location1.Y=2172.18mil|Location2.Y=2178.43mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12083.765mil|Location2.X=12090.015mil|Location1.Y=2172.18mil|Location2.Y=2178.43mil|Absolute=True">Silk To Silk Clearance Constraint: (0.121mm &lt; 0.127mm) Between Text "4" (306.002mm,54.815mm) on Top Overlay And Text "6" (307.051mm,54.815mm) on Top Overlay Silk Text to Silk Clearance [0.121mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12083.399mil|Location2.X=12089.649mil|Location1.Y=2341.44mil|Location2.Y=2347.69mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12083.399mil|Location2.X=12089.649mil|Location1.Y=2341.44mil|Location2.Y=2347.69mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "4" (306.002mm,59.256mm) on Top Overlay And Text "5" (307.051mm,59.256mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11395.931mil|Location2.X=11402.181mil|Location1.Y=4255.199mil|Location2.Y=4261.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11395.931mil|Location2.X=11402.181mil|Location1.Y=4255.199mil|Location2.Y=4261.449mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (288.088mm,108.109mm) on Top Overlay And Text "N" (289.552mm,108.109mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11400.259mil|Location2.X=11406.509mil|Location1.Y=4430.049mil|Location2.Y=4436.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11400.259mil|Location2.X=11406.509mil|Location1.Y=4430.049mil|Location2.Y=4436.299mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (288.198mm,112.55mm) on Top Overlay And Text "N" (289.662mm,112.55mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12472.05mil|Location2.X=12478.3mil|Location1.Y=4255.199mil|Location2.Y=4261.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12472.05mil|Location2.X=12478.3mil|Location1.Y=4255.199mil|Location2.Y=4261.449mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (315.421mm,108.109mm) on Top Overlay And Text "N" (316.885mm,108.109mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12476.379mil|Location2.X=12482.629mil|Location1.Y=4430.049mil|Location2.Y=4436.299mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12476.379mil|Location2.X=12482.629mil|Location1.Y=4430.049mil|Location2.Y=4436.299mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (315.531mm,112.55mm) on Top Overlay And Text "N" (316.995mm,112.55mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12489.567mil|Location2.X=12495.817mil|Location1.Y=2506.693mil|Location2.Y=2512.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12489.567mil|Location2.X=12495.817mil|Location1.Y=2506.693mil|Location2.Y=2512.943mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (315.866mm,63.697mm) on Top Overlay And Text "N" (317.33mm,63.697mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12489.567mil|Location2.X=12495.817mil|Location1.Y=2681.543mil|Location2.Y=2687.793mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12489.567mil|Location2.X=12495.817mil|Location1.Y=2681.543mil|Location2.Y=2687.793mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (315.866mm,68.138mm) on Top Overlay And Text "N" (317.33mm,68.138mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12624.455mil|Location2.X=12630.705mil|Location1.Y=4080.348mil|Location2.Y=4086.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12624.455mil|Location2.X=12630.705mil|Location1.Y=4080.348mil|Location2.Y=4086.598mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (319.292mm,103.668mm) on Top Overlay And Text "D" (320.756mm,103.668mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12624.455mil|Location2.X=12630.705mil|Location1.Y=3905.498mil|Location2.Y=3911.748mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12624.455mil|Location2.X=12630.705mil|Location1.Y=3905.498mil|Location2.Y=3911.748mil|Absolute=True">Silk To Silk Clearance Constraint: (0.031mm &lt; 0.127mm) Between Text "A" (319.292mm,99.227mm) on Top Overlay And Text "D" (320.756mm,99.227mm) on Top Overlay Silk Text to Silk Clearance [0.031mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=4130.676mil|Location2.Y=4136.926mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=4130.676mil|Location2.Y=4136.926mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (294.099mm,103.668mm) on Top Overlay And Text "N" (292.635mm,103.668mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=3606.124mil|Location2.Y=3612.374mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=3606.124mil|Location2.Y=3612.374mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (294.099mm,90.344mm) on Top Overlay And Text "N" (292.635mm,90.344mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=3780.974mil|Location2.Y=3787.224mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=3780.974mil|Location2.Y=3787.224mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (294.099mm,94.786mm) on Top Overlay And Text "N" (292.635mm,94.786mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=3955.825mil|Location2.Y=3962.075mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11573.561mil|Location2.X=11579.811mil|Location1.Y=3955.825mil|Location2.Y=3962.075mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (294.099mm,99.227mm) on Top Overlay And Text "N" (292.635mm,99.227mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=2906.721mil|Location2.Y=2912.971mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=2906.721mil|Location2.Y=2912.971mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (321.432mm,72.58mm) on Top Overlay And Text "N" (319.968mm,72.58mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=3081.572mil|Location2.Y=3087.822mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=3081.572mil|Location2.Y=3087.822mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (321.432mm,77.021mm) on Top Overlay And Text "N" (319.968mm,77.021mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=3256.423mil|Location2.Y=3262.673mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=3256.423mil|Location2.Y=3262.673mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (321.432mm,81.462mm) on Top Overlay And Text "N" (319.968mm,81.462mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=3431.273mil|Location2.Y=3437.523mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12649.68mil|Location2.X=12655.93mil|Location1.Y=3431.273mil|Location2.Y=3437.523mil|Absolute=True">Silk To Silk Clearance Constraint: (0.102mm &lt; 0.127mm) Between Text "D" (321.432mm,85.903mm) on Top Overlay And Text "N" (319.968mm,85.903mm) on Top Overlay Silk Text to Silk Clearance [0.102mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11452.364mil|Location2.X=11458.614mil|Location1.Y=4305.526mil|Location2.Y=4311.776mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11452.364mil|Location2.X=11458.614mil|Location1.Y=4305.526mil|Location2.Y=4311.776mil|Absolute=True">Silk To Silk Clearance Constraint: (0.112mm &lt; 0.127mm) Between Text "H" (291.025mm,108.109mm) on Top Overlay And Text "N" (289.552mm,108.109mm) on Top Overlay Silk Text to Silk Clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11629.888mil|Location2.X=11637.218mil|Location1.Y=3200.715mil|Location2.Y=3211.319mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11629.888mil|Location2.X=11637.218mil|Location1.Y=3200.715mil|Location2.Y=3211.319mil|Absolute=True">Silk To Silk Clearance Constraint: (0.126mm &lt; 0.127mm) Between Text "H" (294.072mm,81.462mm) on Top Overlay And Text "N" (295.536mm,81.462mm) on Top Overlay Silk Text to Silk Clearance [0.126mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11633.932mil|Location2.X=11640.182mil|Location1.Y=3380.946mil|Location2.Y=3387.196mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11633.932mil|Location2.X=11640.182mil|Location1.Y=3380.946mil|Location2.Y=3387.196mil|Absolute=True">Silk To Silk Clearance Constraint: (0.125mm &lt; 0.127mm) Between Text "H" (294.17mm,85.903mm) on Top Overlay And Text "N" (295.644mm,85.903mm) on Top Overlay Silk Text to Silk Clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11662.645mil|Location2.X=11669.975mil|Location1.Y=4424.669mil|Location2.Y=4435.273mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11662.645mil|Location2.X=11669.975mil|Location1.Y=4424.669mil|Location2.Y=4435.273mil|Absolute=True">Silk To Silk Clearance Constraint: (0.126mm &lt; 0.127mm) Between Text "H" (294.904mm,112.55mm) on Top Overlay And Text "N" (296.368mm,112.55mm) on Top Overlay Silk Text to Silk Clearance [0.126mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11666.495mil|Location2.X=11673.825mil|Location1.Y=4249.819mil|Location2.Y=4260.422mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11666.495mil|Location2.X=11673.825mil|Location1.Y=4249.819mil|Location2.Y=4260.422mil|Absolute=True">Silk To Silk Clearance Constraint: (0.126mm &lt; 0.127mm) Between Text "H" (295.002mm,108.109mm) on Top Overlay And Text "N" (296.466mm,108.109mm) on Top Overlay Silk Text to Silk Clearance [0.126mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12528.484mil|Location2.X=12534.734mil|Location1.Y=4305.526mil|Location2.Y=4311.776mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12528.484mil|Location2.X=12534.734mil|Location1.Y=4305.526mil|Location2.Y=4311.776mil|Absolute=True">Silk To Silk Clearance Constraint: (0.112mm &lt; 0.127mm) Between Text "H" (318.359mm,108.109mm) on Top Overlay And Text "N" (316.885mm,108.109mm) on Top Overlay Silk Text to Silk Clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12706.007mil|Location2.X=12713.337mil|Location1.Y=1801.91mil|Location2.Y=1812.514mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12706.007mil|Location2.X=12713.337mil|Location1.Y=1801.91mil|Location2.Y=1812.514mil|Absolute=True">Silk To Silk Clearance Constraint: (0.126mm &lt; 0.127mm) Between Text "H" (321.405mm,45.932mm) on Top Overlay And Text "N" (322.869mm,45.932mm) on Top Overlay Silk Text to Silk Clearance [0.126mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12710.052mil|Location2.X=12716.302mil|Location1.Y=1982.141mil|Location2.Y=1988.391mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12710.052mil|Location2.X=12716.302mil|Location1.Y=1982.141mil|Location2.Y=1988.391mil|Absolute=True">Silk To Silk Clearance Constraint: (0.125mm &lt; 0.127mm) Between Text "H" (321.503mm,50.374mm) on Top Overlay And Text "N" (322.977mm,50.374mm) on Top Overlay Silk Text to Silk Clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12738.765mil|Location2.X=12746.095mil|Location1.Y=4424.669mil|Location2.Y=4435.273mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12738.765mil|Location2.X=12746.095mil|Location1.Y=4424.669mil|Location2.Y=4435.273mil|Absolute=True">Silk To Silk Clearance Constraint: (0.126mm &lt; 0.127mm) Between Text "H" (322.237mm,112.55mm) on Top Overlay And Text "N" (323.701mm,112.55mm) on Top Overlay Silk Text to Silk Clearance [0.126mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12742.614mil|Location2.X=12749.944mil|Location1.Y=4249.819mil|Location2.Y=4260.422mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12742.614mil|Location2.X=12749.944mil|Location1.Y=4249.819mil|Location2.Y=4260.422mil|Absolute=True">Silk To Silk Clearance Constraint: (0.126mm &lt; 0.127mm) Between Text "H" (322.335mm,108.109mm) on Top Overlay And Text "N" (323.799mm,108.109mm) on Top Overlay Silk Text to Silk Clearance [0.126mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11610.411mil|Location2.X=11616.661mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11610.411mil|Location2.X=11616.661mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True">Silk To Silk Clearance Constraint: (0.086mm &lt; 0.127mm) Between Text "I" (295.027mm,116.992mm) on Top Overlay And Text "T" (293.771mm,116.992mm) on Top Overlay Silk Text to Silk Clearance [0.086mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12686.53mil|Location2.X=12692.78mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12686.53mil|Location2.X=12692.78mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True">Silk To Silk Clearance Constraint: (0.086mm &lt; 0.127mm) Between Text "I" (322.36mm,116.992mm) on Top Overlay And Text "T" (321.104mm,116.992mm) on Top Overlay Silk Text to Silk Clearance [0.086mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9743.928mil|Location2.X=9750.178mil|Location1.Y=3406.488mil|Location2.Y=3412.738mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9743.928mil|Location2.X=9750.178mil|Location1.Y=3406.488mil|Location2.Y=3412.738mil|Absolute=True">Silk To Silk Clearance Constraint: (0.105mm &lt; 0.127mm) Between Text "J9" (247.292mm,85.575mm) on Top Overlay And Track (247mm,86.72mm)(249mm,86.72mm) on Top Overlay Silk Text to Silk Clearance [0.105mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11456.692mil|Location2.X=11462.942mil|Location1.Y=4480.377mil|Location2.Y=4486.627mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11456.692mil|Location2.X=11462.942mil|Location1.Y=4480.377mil|Location2.Y=4486.627mil|Absolute=True">Silk To Silk Clearance Constraint: (0.112mm &lt; 0.127mm) Between Text "L" (291.135mm,112.55mm) on Top Overlay And Text "N" (289.662mm,112.55mm) on Top Overlay Silk Text to Silk Clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12458.56mil|Location2.X=12464.81mil|Location1.Y=4130.676mil|Location2.Y=4136.926mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12458.56mil|Location2.X=12464.81mil|Location1.Y=4130.676mil|Location2.Y=4136.926mil|Absolute=True">Silk To Silk Clearance Constraint: (0.071mm &lt; 0.127mm) Between Text "L" (316.562mm,103.668mm) on Top Overlay And Text "Y" (315.098mm,103.668mm) on Top Overlay Silk Text to Silk Clearance [0.071mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12458.56mil|Location2.X=12464.81mil|Location1.Y=3955.825mil|Location2.Y=3962.075mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12458.56mil|Location2.X=12464.81mil|Location1.Y=3955.825mil|Location2.Y=3962.075mil|Absolute=True">Silk To Silk Clearance Constraint: (0.071mm &lt; 0.127mm) Between Text "L" (316.562mm,99.227mm) on Top Overlay And Text "Y" (315.098mm,99.227mm) on Top Overlay Silk Text to Silk Clearance [0.071mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12532.812mil|Location2.X=12539.062mil|Location1.Y=4480.377mil|Location2.Y=4486.627mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12532.812mil|Location2.X=12539.062mil|Location1.Y=4480.377mil|Location2.Y=4486.627mil|Absolute=True">Silk To Silk Clearance Constraint: (0.112mm &lt; 0.127mm) Between Text "L" (318.469mm,112.55mm) on Top Overlay And Text "N" (316.995mm,112.55mm) on Top Overlay Silk Text to Silk Clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11445.394mil|Location2.X=11451.644mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11445.394mil|Location2.X=11451.644mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True">Silk To Silk Clearance Constraint: (0.081mm &lt; 0.127mm) Between Text "N" (290.833mm,116.992mm) on Top Overlay And Text "U" (289.369mm,116.992mm) on Top Overlay Silk Text to Silk Clearance [0.081mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.765mil|Location2.X=12552.015mil|Location1.Y=2557.02mil|Location2.Y=2563.27mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.765mil|Location2.X=12552.015mil|Location1.Y=2557.02mil|Location2.Y=2563.27mil|Absolute=True">Silk To Silk Clearance Constraint: (0.1mm &lt; 0.127mm) Between Text "N" (317.33mm,63.697mm) on Top Overlay And Text "T" (318.794mm,63.697mm) on Top Overlay Silk Text to Silk Clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.765mil|Location2.X=12552.015mil|Location1.Y=2731.871mil|Location2.Y=2738.121mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.765mil|Location2.X=12552.015mil|Location1.Y=2731.871mil|Location2.Y=2738.121mil|Absolute=True">Silk To Silk Clearance Constraint: (0.1mm &lt; 0.127mm) Between Text "N" (317.33mm,68.138mm) on Top Overlay And Text "T" (318.794mm,68.138mm) on Top Overlay Silk Text to Silk Clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12521.513mil|Location2.X=12527.763mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12521.513mil|Location2.X=12527.763mil|Location1.Y=4655.227mil|Location2.Y=4661.477mil|Absolute=True">Silk To Silk Clearance Constraint: (0.081mm &lt; 0.127mm) Between Text "N" (318.166mm,116.992mm) on Top Overlay And Text "U" (316.703mm,116.992mm) on Top Overlay Silk Text to Silk Clearance [0.081mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jo%C3%A3o Cl%C3%A1udio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10533.209mil|Location2.X=10537.542mil|Location1.Y=2637.863mil|Location2.Y=2642.196mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\sources\flatsat_2_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10533.209mil|Location2.X=10537.542mil|Location1.Y=2637.863mil|Location2.Y=2642.196mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.127mm) Between Text "Thermocouples" (263mm,67mm) on Top Overlay And Track (241mm,67mm)(270.145mm,67mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
