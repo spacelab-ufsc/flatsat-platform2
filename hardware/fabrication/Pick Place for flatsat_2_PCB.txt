@@ -4,8 +4,8 @@ C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\.\fabrication\Pick Place
 ========================================================================================================================
 File Design Information:
 
-Date:       02/04/21
-Time:       19:12
+Date:       07/04/21
+Time:       14:50
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
