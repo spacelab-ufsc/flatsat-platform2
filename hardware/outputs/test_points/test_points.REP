@@ -1,5 +1,5 @@
-Error Report for  - Users\JOOCLU~1\AppData\Local\Temp\Pro299E.tmp
-26/03/2021 16:28:32
+Error Report for  - Users\JOOCLU~1\AppData\Local\Temp\ProF570.tmp
+17/05/2021 21:15:44
 
 Warning arcs were not exported.
 
@@ -9,121 +9,121 @@ Net NC_KILL_SWITCH_1 with allias 3 too long.
 Net NC_KILL_SWITCH_2 with allias 4 too long.
 Net NO_KILL_SWITCH_1 with allias 5 too long.
 Net NO_KILL_SWITCH_2 with allias 6 too long.
-Warning pad shape change for U2-13 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U2-12 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U2-9 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-8 from  to rectangular 45.669mil,16.142mil
-Pad name JX2-95 too long.
-Pad name JX2-97 too long.
-Pad name JX2-96 too long.
-Pad name JX2-13 too long.
-Pad name JX2-14 too long.
-Pad name JX2-9 too long.
-Pad name JX2-99 too long.
-Pad name JX2-100 too long.
-Pad name JX2-93 too long.
-Pad name JX2-94 too long.
-Pad name JX2-11 too long.
-Pad name JX1-8 too long.
-Pad name JX1-2 too long.
-Pad name JX1-1 too long.
-Pad name JX1-94 too long.
-Pad name JX1-93 too long.
-Pad name JX1-6 too long.
-Pad name JX1-4 too long.
-Pad name JX1-3 too long.
-Pad name JX1-10 too long.
-Pad name JX1-9 too long.
-Pad name JX1-88 too long.
-Pad name JX1-87 too long.
-Pad name JX1-92 too long.
-Pad name JX1-90 too long.
-Pad name JX1-91 too long.
+Warning pad shape change for U2-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U2-12 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U2-13 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-89 too long.
-Warning pad shape change for U30-62 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-60 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-59 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-58 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-57 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-55 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-54 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-53 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-46 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-45 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-44 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-43 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-41 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-40 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-36 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-34 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-33 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-32 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-30 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-29 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-28 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-24 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-23 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-22 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-21 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-19 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-18 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Pad name JX1-91 too long.
+Pad name JX1-90 too long.
+Pad name JX1-92 too long.
+Pad name JX1-87 too long.
+Pad name JX1-88 too long.
+Pad name JX1-9 too long.
+Pad name JX1-10 too long.
+Pad name JX1-3 too long.
+Pad name JX1-4 too long.
+Pad name JX1-6 too long.
+Pad name JX1-93 too long.
+Pad name JX1-94 too long.
+Pad name JX1-1 too long.
+Pad name JX1-2 too long.
+Pad name JX1-8 too long.
+Pad name JX2-11 too long.
+Pad name JX2-94 too long.
+Pad name JX2-93 too long.
+Pad name JX2-100 too long.
+Pad name JX2-99 too long.
+Pad name JX2-9 too long.
+Pad name JX2-14 too long.
+Pad name JX2-13 too long.
+Pad name JX2-96 too long.
+Pad name JX2-97 too long.
+Pad name JX2-95 too long.
+Warning pad shape change for U28-18 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-19 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-21 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-22 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-23 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-24 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-28 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-29 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-30 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-32 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-33 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-34 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-36 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-40 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-41 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-43 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-44 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-45 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-46 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-53 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-54 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-55 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-57 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-58 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-59 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-60 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-62 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Warning pad shape change for D1-3 from  to rectangular 25.591mil,23.228mil
 Warning pad shape change for D2-2 from  to rectangular 25.591mil,23.228mil
 Warning pad shape change for D3-2 from  to rectangular 25.591mil,23.228mil
-Warning pad shape change for U17-15 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-14 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-13 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-12 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-9 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-8 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-7 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-6 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U23-8 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U17-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-12 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-13 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-14 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-15 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U23-5 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U24-8 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U23-8 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U24-5 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U20-15 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-14 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-13 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-12 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-9 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-8 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U24-8 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U20-6 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U16-13 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U16-12 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U16-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-12 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-13 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-14 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-15 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U16-8 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U29-1 from  to rectangular 25.591mil,23.228mil
-Warning pad shape change for U29-2 from  to rectangular 25.591mil,23.228mil
-Warning pad shape change for U25-5 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U26-5 from  to rectangular 24.41mil,23.228mil
-Pad name JX1-59 too long.
-Pad name JX1-60 too long.
-Pad name JX1-57 too long.
-Pad name JX1-58 too long.
-Pad name JX2-12 too long.
-Pad name JX2-58 too long.
-Pad name JX2-57 too long.
-Pad name JX2-60 too long.
+Warning pad shape change for U16-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-12 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-13 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U26-2 from  to rectangular 25.591mil,23.228mil
+Warning pad shape change for U26-1 from  to rectangular 25.591mil,23.228mil
+Warning pad shape change for U27-5 from  to rectangular 24.41mil,23.228mil
 Pad name JX2-59 too long.
+Pad name JX2-60 too long.
+Pad name JX2-57 too long.
+Pad name JX2-58 too long.
+Pad name JX2-12 too long.
+Pad name JX1-58 too long.
+Pad name JX1-57 too long.
+Pad name JX1-60 too long.
+Pad name JX1-59 too long.
+Warning pad shape change for U25-5 from  to rectangular 24.41mil,23.228mil
 Warning pad shape change for U23-6 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U23-7 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U24-6 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U24-7 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U5-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-35 too long.
-Warning pad shape change for U14-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-19 too long.
-Warning pad shape change for U17-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-54 too long.
+Warning pad shape change for U17-1 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-20 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U8-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-26 too long.
-Warning pad shape change for U11-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-84 too long.
-Warning pad shape change for U17-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-55 too long.
+Warning pad shape change for U17-5 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-16 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U1-8 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U4-8 from  to rectangular 53.937mil,23.622mil
@@ -132,98 +132,98 @@ Warning pad shape change for U9-8 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U13-8 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U18-8 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U12-8 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for D1-2 from  to rectangular 25.591mil,23.228mil
-Warning pad shape change for U28-5 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U1-1 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U1-2 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U1-6 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U4-1 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U4-6 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U7-1 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U7-6 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U9-1 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U9-6 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U12-2 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U12-6 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U23-2 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U24-2 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U13-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U27-2 from  to rectangular 24.41mil,23.228mil
+Warning pad shape change for U26-3 from  to rectangular 25.591mil,23.228mil
+Warning pad shape change for U2-11 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U22-5 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U18-6 from  to rectangular 53.937mil,23.622mil
+Pad name JX2-91 too long.
+Pad name JX2-92 too long.
+Pad name JX2-85 too long.
+Pad name JX2-86 too long.
+Pad name JX2-71 too long.
+Pad name JX2-72 too long.
+Pad name JX2-65 too long.
+Pad name JX2-66 too long.
+Pad name JX2-51 too long.
+Pad name JX2-52 too long.
+Pad name JX2-45 too long.
+Pad name JX2-46 too long.
+Pad name JX2-39 too long.
+Pad name JX2-40 too long.
+Pad name JX2-21 too long.
+Pad name JX2-22 too long.
+Pad name JX2-15 too long.
+Pad name JX2-16 too long.
+Pad name JX2-77 too long.
+Pad name JX2-27 too long.
+Pad name JX2-33 too long.
+Pad name JX2-28 too long.
+Pad name JX2-34 too long.
+Pad name JX1-34 too long.
+Pad name JX1-28 too long.
+Pad name JX1-33 too long.
+Pad name JX1-27 too long.
+Pad name JX1-77 too long.
+Pad name JX1-100 too long.
+Pad name JX1-99 too long.
+Pad name JX1-16 too long.
+Pad name JX1-15 too long.
+Pad name JX1-22 too long.
+Pad name JX1-21 too long.
+Pad name JX1-40 too long.
+Pad name JX1-39 too long.
+Pad name JX1-46 too long.
+Pad name JX1-45 too long.
+Pad name JX1-52 too long.
+Pad name JX1-51 too long.
+Pad name JX1-66 too long.
+Pad name JX1-65 too long.
+Pad name JX1-72 too long.
+Pad name JX1-71 too long.
+Pad name JX1-86 too long.
+Pad name JX1-85 too long.
+Pad name JX1-98 too long.
+Pad name JX1-96 too long.
+Pad name JX1-97 too long.
+Pad name JX1-95 too long.
+Warning pad shape change for U28-51 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-47 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-35 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-25 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-15 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-13 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-11 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-10 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-5 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-1 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for D1-2 from  to rectangular 25.591mil,23.228mil
+Warning pad shape change for U1-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U1-2 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U1-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U3-11 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U4-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U4-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U5-11 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U6-11 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U7-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U7-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U8-11 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U9-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U9-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U10-11 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U11-11 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U12-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U12-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U14-11 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U15-11 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-11 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U23-2 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U24-2 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U25-2 from  to rectangular 24.41mil,23.228mil
+Warning pad shape change for U13-6 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U20-11 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U16-11 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U2-11 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U25-2 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U26-2 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U29-3 from  to rectangular 25.591mil,23.228mil
-Pad name JX1-95 too long.
-Pad name JX1-97 too long.
-Pad name JX1-96 too long.
-Pad name JX1-98 too long.
-Pad name JX1-85 too long.
-Pad name JX1-86 too long.
-Pad name JX1-71 too long.
-Pad name JX1-72 too long.
-Pad name JX1-65 too long.
-Pad name JX1-66 too long.
-Pad name JX1-51 too long.
-Pad name JX1-52 too long.
-Pad name JX1-45 too long.
-Pad name JX1-46 too long.
-Pad name JX1-39 too long.
-Pad name JX1-40 too long.
-Pad name JX1-21 too long.
-Pad name JX1-22 too long.
-Pad name JX1-15 too long.
-Pad name JX1-16 too long.
-Pad name JX1-99 too long.
-Pad name JX1-100 too long.
-Pad name JX1-77 too long.
-Pad name JX1-27 too long.
-Pad name JX1-33 too long.
-Pad name JX1-28 too long.
-Pad name JX1-34 too long.
-Pad name JX2-34 too long.
-Pad name JX2-28 too long.
-Pad name JX2-33 too long.
-Pad name JX2-27 too long.
-Pad name JX2-77 too long.
-Pad name JX2-16 too long.
-Pad name JX2-15 too long.
-Pad name JX2-22 too long.
-Pad name JX2-21 too long.
-Pad name JX2-40 too long.
-Pad name JX2-39 too long.
-Pad name JX2-46 too long.
-Pad name JX2-45 too long.
-Pad name JX2-52 too long.
-Pad name JX2-51 too long.
-Pad name JX2-66 too long.
-Pad name JX2-65 too long.
-Pad name JX2-72 too long.
-Pad name JX2-71 too long.
-Pad name JX2-86 too long.
-Pad name JX2-85 too long.
-Pad name JX2-92 too long.
-Pad name JX2-91 too long.
-Warning pad shape change for U30-1 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-5 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-10 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-11 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-13 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-15 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-25 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-35 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-47 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-51 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Warning pad shape change for U16-14 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U16-16 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U16-20 from  to rectangular 45.669mil,16.142mil
@@ -258,11 +258,11 @@ Warning pad shape change for U8-12 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U8-13 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U8-16 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U8-17 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-20 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-20 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-20 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-12 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-18 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-18 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-18 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-14 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U1-7 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U4-7 from  to rectangular 53.937mil,23.622mil
@@ -303,163 +303,163 @@ Warning pad shape change for U3-13 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-15 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-17 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-16 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-17 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-17 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-17 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-18 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-16 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-16 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-16 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-20 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U8-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-31 too long.
-Warning pad shape change for U11-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-83 too long.
-Warning pad shape change for U17-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-53 too long.
+Warning pad shape change for U17-3 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-18 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U8-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-25 too long.
-Warning pad shape change for U14-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-20 too long.
-Warning pad shape change for U17-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-56 too long.
+Warning pad shape change for U17-4 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-17 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U25-3 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U26-3 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U30-14 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-2 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-3 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U27-3 from  to rectangular 24.41mil,23.228mil
+Warning pad shape change for U28-14 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-2 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-3 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Warning pad shape change for D1-1 from  to rectangular 25.591mil,23.228mil
 Warning pad shape change for U25-1 from  to rectangular 24.41mil,23.228mil
 Warning pad shape change for D2-1 from  to rectangular 25.591mil,23.228mil
 Warning pad shape change for D3-1 from  to rectangular 25.591mil,23.228mil
-Warning pad shape change for U26-1 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U30-6 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-63 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-61 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U3-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U27-1 from  to rectangular 24.41mil,23.228mil
+Warning pad shape change for U28-6 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-63 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-61 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Pad name JX1-12 too long.
-Warning pad shape change for U3-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-11 too long.
-Warning pad shape change for U3-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-14 too long.
-Warning pad shape change for U3-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-13 too long.
-Warning pad shape change for U3-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-18 too long.
-Warning pad shape change for U3-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-17 too long.
-Warning pad shape change for U3-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-20 too long.
-Warning pad shape change for U3-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-19 too long.
-Warning pad shape change for U8-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-24 too long.
-Warning pad shape change for U8-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-23 too long.
-Warning pad shape change for U8-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-30 too long.
-Warning pad shape change for U8-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-29 too long.
-Warning pad shape change for U8-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-32 too long.
-Warning pad shape change for U5-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-36 too long.
-Warning pad shape change for U5-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-38 too long.
-Warning pad shape change for U5-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-37 too long.
-Warning pad shape change for U5-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-42 too long.
-Warning pad shape change for U5-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-41 too long.
-Warning pad shape change for U5-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-44 too long.
-Warning pad shape change for U5-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-43 too long.
-Warning pad shape change for U6-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-48 too long.
-Warning pad shape change for U6-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-47 too long.
-Warning pad shape change for U6-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-50 too long.
-Warning pad shape change for U6-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-49 too long.
-Warning pad shape change for U6-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-54 too long.
-Warning pad shape change for U6-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-53 too long.
-Warning pad shape change for U6-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-56 too long.
-Warning pad shape change for U6-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-55 too long.
-Warning pad shape change for U10-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-62 too long.
-Warning pad shape change for U10-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-61 too long.
-Warning pad shape change for U10-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-64 too long.
-Warning pad shape change for U10-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-63 too long.
-Warning pad shape change for U10-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-68 too long.
-Warning pad shape change for U10-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-70 too long.
-Warning pad shape change for U10-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-69 too long.
-Warning pad shape change for U11-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-74 too long.
-Warning pad shape change for U11-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-76 too long.
-Warning pad shape change for U11-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-75 too long.
-Warning pad shape change for U11-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-82 too long.
-Warning pad shape change for U11-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-81 too long.
-Warning pad shape change for U14-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-18 too long.
-Warning pad shape change for U14-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-17 too long.
-Warning pad shape change for U14-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-24 too long.
-Warning pad shape change for U14-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-23 too long.
-Warning pad shape change for U14-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-26 too long.
-Warning pad shape change for U14-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-8 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-25 too long.
-Warning pad shape change for U15-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-30 too long.
-Warning pad shape change for U15-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-29 too long.
-Warning pad shape change for U15-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-31 too long.
-Warning pad shape change for U15-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-36 too long.
-Warning pad shape change for U15-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-35 too long.
-Warning pad shape change for U15-9 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-37 too long.
-Warning pad shape change for U16-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-9 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-42 too long.
-Warning pad shape change for U16-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-41 too long.
-Warning pad shape change for U16-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-44 too long.
-Warning pad shape change for U16-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-43 too long.
-Warning pad shape change for U16-6 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-48 too long.
-Warning pad shape change for U16-7 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-47 too long.
-Warning pad shape change for U20-1 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-63 too long.
-Warning pad shape change for U20-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-68 too long.
-Warning pad shape change for U20-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-67 too long.
-Warning pad shape change for U20-5 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-70 too long.
+Warning pad shape change for U20-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-69 too long.
 Pad name JX2-74 too long.
 Pad name JX2-73 too long.
@@ -473,114 +473,115 @@ Pad name JX2-88 too long.
 Pad name JX2-87 too long.
 Pad name JX2-90 too long.
 Pad name JX2-89 too long.
-Warning pad shape change for D2-3 from  to rectangular 25.591mil,23.228mil
 Pad name JX1-5 too long.
+Warning pad shape change for D2-3 from  to rectangular 25.591mil,23.228mil
+Warning pad shape change for U27-4 from  to rectangular 24.41mil,23.228mil
 Warning pad shape change for U25-4 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U26-4 from  to rectangular 24.41mil,23.228mil
-Warning pad shape change for U28-6 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U28-7 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U11-3 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U22-6 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U22-7 from  to rectangular 53.937mil,23.622mil
 Pad name JX1-73 too long.
-Warning pad shape change for U15-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-38 too long.
-Warning pad shape change for U28-1 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U15-8 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U22-1 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-62 too long.
-Warning pad shape change for U23-4 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-4 too long.
-Warning pad shape change for U24-4 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U23-4 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-3 too long.
+Warning pad shape change for U24-4 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U2-3 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-7 too long.
 Warning pad shape change for U2-5 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-8 too long.
 Warning pad shape change for U2-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-49 too long.
+Warning pad shape change for U2-14 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U18-4 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U1-4 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U4-4 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U7-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U7-4 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U7-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U9-4 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U12-4 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U13-4 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U18-4 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U2-14 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-1 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-5 too long.
 Warning pad shape change for U2-4 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-6 too long.
 Warning pad shape change for U2-6 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-50 too long.
+Warning pad shape change for U2-15 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U18-3 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U18-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U1-3 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U4-3 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U7-3 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U9-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U9-3 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U9-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U12-3 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U13-3 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U18-2 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U18-3 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U2-15 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U28-2 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U28-4 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U22-4 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U22-2 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-64 too long.
-Warning pad shape change for U10-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX1-67 too long.
-Warning pad shape change for U15-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-7 from  to rectangular 45.669mil,16.142mil
 Pad name JX2-32 too long.
-Warning pad shape change for U28-3 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U15-4 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U22-3 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-61 too long.
-Warning pad shape change for U23-1 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-2 too long.
-Warning pad shape change for U24-1 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U23-1 from  to rectangular 53.937mil,23.622mil
 Pad name JX2-1 too long.
-Warning pad shape change for U30-16 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-26 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-38 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-48 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-17 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-27 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-39 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-52 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U24-1 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U28-16 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-26 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-38 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-48 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-17 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-27 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-39 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-52 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Component Designator USB_1.8V too long.
-Warning pad shape change for U30-12 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-37 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-49 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-64 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-64 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-49 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-37 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-12 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Component Designator USB_3.3V too long.
-Warning pad shape change for U30-20 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-31 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-42 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-50 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-56 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-7 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-8 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-56 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-50 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-42 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-31 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-20 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-7 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-8 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
 Component Designator VEXTERNAL_1 too long.
 Component Designator VEXTERNAL_2 too long.
 Pad name JX1-7 too long.
-Warning pad shape change for U3-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U3-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U5-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U5-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U6-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U6-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U8-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U8-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U10-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U10-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U11-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U11-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U14-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U14-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U15-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U15-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U17-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U20-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U16-2 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U16-10 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U2-2 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U2-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U2-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U3-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U5-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U6-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U8-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U10-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U11-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U14-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U15-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U17-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U20-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-10 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U16-2 from  to rectangular 45.669mil,16.142mil
+Warning pad shape change for U2-19 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U3-19 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U5-19 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U6-19 from  to rectangular 45.669mil,16.142mil
@@ -592,31 +593,30 @@ Warning pad shape change for U15-19 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U17-19 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U20-19 from  to rectangular 45.669mil,16.142mil
 Warning pad shape change for U16-19 from  to rectangular 45.669mil,16.142mil
-Warning pad shape change for U2-19 from  to rectangular 45.669mil,16.142mil
-Pad name JX1-79 too long.
-Pad name JX1-80 too long.
-Pad name JX1-78 too long.
-Pad name JX2-78 too long.
-Pad name JX2-80 too long.
-Pad name JX2-79 too long.
 Pad name JX2-98 too long.
+Pad name JX2-79 too long.
+Pad name JX2-80 too long.
+Pad name JX2-78 too long.
+Pad name JX1-78 too long.
+Pad name JX1-80 too long.
+Pad name JX1-79 too long.
 Component Designator VCCIO_EN too long.
-Warning pad shape change for D3-3 from  to rectangular 25.591mil,23.228mil
 Pad name JX2-10 too long.
-Warning pad shape change for U30-4 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U30-9 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
-Warning pad shape change for U28-8 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for D3-3 from  to rectangular 25.591mil,23.228mil
+Warning pad shape change for U28-4 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U28-9 from rounded 11.811mil,64.961mil to rectangular 11.811mil,53.15mil
+Warning pad shape change for U22-8 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U18-5 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U18-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U1-5 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U4-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U4-5 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U4-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U7-5 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U9-5 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U12-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U12-5 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U12-1 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U23-3 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U24-3 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U13-1 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U13-2 from  to rectangular 53.937mil,23.622mil
 Warning pad shape change for U13-5 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U18-1 from  to rectangular 53.937mil,23.622mil
-Warning pad shape change for U18-5 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U13-2 from  to rectangular 53.937mil,23.622mil
+Warning pad shape change for U13-1 from  to rectangular 53.937mil,23.622mil
