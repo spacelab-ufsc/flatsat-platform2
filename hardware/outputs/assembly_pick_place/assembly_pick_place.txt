@@ -4,8 +4,8 @@ C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\.\outputs\assembly_pick_
 ========================================================================================================================
 File Design Information:
 
-Date:       17/05/21
-Time:       21:15
+Date:       19/05/21
+Time:       14:34
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
@@ -107,7 +107,7 @@ R9         3.74k                               TopLayer 0805                    
 R8         120R                                TopLayer 0805                              1889.764      1456.693      90       "RES 120R OHM 1/8W 1% 0805"                                                                                         
 R7         220R                                TopLayer 0805                              1653.543      1181.102      180      "RES 220R OHM 1/8W 1% 0805"                                                                                         
 R6         10k                                 TopLayer 0805                              3425.197      118.110       90       "RES 10K OHM 1/8W 1%  0805"                                                                                         
-R5         36K                                 TopLayer 0805                              2716.535      354.331       180      "RES 36K OHM 1/10W 0.1% 0805"                                                                                       
+R5         36K                                 TopLayer 0805                              2716.535      354.331       180      "RES 36K OHM 1/8W 0.1% 0805"                                                                                        
 R4         107k                                TopLayer 0805                              2716.535      551.181       180      "RES 107K OHM 1/8W 1% 0805"                                                                                         
 R3         430R                                TopLayer 0805                              1417.323      1454.528      90       "RES 430R OHM 1/8W 0.1% 0805"                                                                                       
 R2         680R                                TopLayer 0805                              1181.102      1181.102      180      "RES 680R OHM 1/8W 1% 0805"                                                                                         
@@ -123,7 +123,7 @@ FB2        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                   
 FB1        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             14921.260     2992.126      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 0.1 OHM, 0.5A, 0603"                                                  
 D3         BAT54LT1G                           TopLayer SOT95P237X112-3N                  1732.284      1456.693      90       ""                                                                                                                  
 D2         BAT54LT1G                           TopLayer SOT95P237X112-3N                  1259.842      1454.528      90       ""                                                                                                                  
-D1         MBR230LSFT1G                        TopLayer SOT95P237X112-3N                  2362.205      275.591       360      ""                                                                                                                  
+D1         MBR230LSFT1G                        TopLayer On_Semiconductor_498_MFG          2322.835      275.591       270      ""                                                                                                                  
 CN12       BCS-106-L-D-TE                      TopLayer BCS-106-L-D-TE                    15561.811     2587.795      90       "CONN RCPT 12POS 0.1 GOLD PCB"                                                                                      
 CN11       0533980371                          TopLayer PICO_BLADE_0533980371             15551.181     1181.102      90       "CONN HEADER SMD 3POS 1.25MM"                                                                                       
 CN10       0533980371                          TopLayer PICO_BLADE_0533980371             15551.181     1771.654      90       "CONN HEADER SMD 3POS 1.25MM"                                                                                       
