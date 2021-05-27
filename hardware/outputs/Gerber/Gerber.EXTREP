@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Gerber.GBR   19/05/2021  14:33:54
+Gerber File Extension Report For: Gerber.GBR   5/27/2021  12:21:56 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -10,6 +10,7 @@ Layer Extension     Layer Description
 .GTP                Top Paste                               
 .GTS                Top Solder                              
 .GTL                Top Layer                               
+.G1                 FlatSat GND                             
 .G2                 FlatSat VCC                             
 .GBL                Bottom Layer                            
 .GBS                Bottom Solder                           

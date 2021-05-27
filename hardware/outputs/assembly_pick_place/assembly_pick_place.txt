@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\João Cláudio\Documents\Altium\Projects\FlatSat\.\outputs\assembly_pick_place\assembly_pick_place.txt
+C:\Users\Yan Azeredo\Desktop\SpaceLab\flatsat-platform2\hardware\.\outputs\assembly_pick_place\assembly_pick_place.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       19/05/21
-Time:       14:34
-Revision:   Not in VersionControl
+Date:       27/05/21
+Time:       00:21
+Revision:   1ccceabb110f42c1249c135dc5ec24a206bff2ba
 Variant:    No variations
 Units used: mil
 
@@ -92,9 +92,9 @@ R24        10k                                 TopLayer 0805                    
 R23        10k                                 TopLayer 0805                              14645.669     3070.866      90       "RES 10K OHM 1/8W 1%  0805"                                                                                         
 R22        10k                                 TopLayer 0805                              14763.780     2165.354      360      "RES 10K OHM 1/8W 1%  0805"                                                                                         
 R21        DNP                                 TopLayer 0805                              15314.961     669.291       90       "RES DNP 0805"                                                                                                      
-R20        10R                                 TopLayer R0603_MD                          14921.260     866.142       90       "RES 10R OHM 1/10W 1% 0805"                                                                                         
+R20        10R                                 TopLayer R0603_MD                          14921.260     866.142       90       "RES 10R OHM 1/10W 1% 0603"                                                                                         
 R19        12K                                 TopLayer R0805_MD                          14330.709     2519.685      90       "RES 12K OHM 1/8W 1% 0805"                                                                                          
-R18        10R                                 TopLayer R0603_MD                          14842.520     866.142       90       "RES 10R OHM 1/10W 1% 0805"                                                                                         
+R18        10R                                 TopLayer R0603_MD                          14842.520     866.142       90       "RES 10R OHM 1/10W 1% 0603"                                                                                         
 R17        120R                                TopLayer 0805                              5393.701      9015.748      360      "RES 120R OHM 1/8W 1% 0805"                                                                                         
 R16        120R                                TopLayer 0805                              6062.992      9015.748      360      "RES 120R OHM 1/8W 1% 0805"                                                                                         
 R15        1.5k                                TopLayer 0805                              2322.835      1614.173      180      "RES 1.5K OHM 1/10W 0.1% 0805"                                                                                      
@@ -118,9 +118,9 @@ J7         87832-1420                          TopLayer SAMTEC_TSW-107-05-F-D   
 CN22       PC104                               TopLayer PC104                             12071.595     416.681       360      ""                                                                                                                  
 CN24       PC104                               TopLayer PC104                             12070.480     9435.453      360      ""                                                                                                                  
 CN21       PC104                               TopLayer PC104                             7875.992      9435.453      360      ""                                                                                                                  
-FB3        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             14133.858     2559.055      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 0.1 OHM, 0.5A, 0603"                                                  
-FB2        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             15314.961     3346.457      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 0.1 OHM, 0.5A, 0603"                                                  
-FB1        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             14921.260     2992.126      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 0.1 OHM, 0.5A, 0603"                                                  
+FB3        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             14133.858     2559.055      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 47 OHM, 0.5A, 0603"                                                   
+FB2        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             15314.961     3346.457      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 47 OHM, 0.5A, 0603"                                                   
+FB1        "Ferrite Bead 47 Ohms 500mA 100MHz" TopLayer L0603                             14921.260     2992.126      90       "WURTH ELEKTRONIK   742792608   FERRITE BEAD, 47 OHM, 0.5A, 0603"                                                   
 D3         BAT54LT1G                           TopLayer SOT95P237X112-3N                  1732.284      1456.693      90       ""                                                                                                                  
 D2         BAT54LT1G                           TopLayer SOT95P237X112-3N                  1259.842      1454.528      90       ""                                                                                                                  
 D1         MBR230LSFT1G                        TopLayer On_Semiconductor_498_MFG          2322.835      275.591       270      ""                                                                                                                  
