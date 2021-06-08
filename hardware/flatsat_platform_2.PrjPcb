@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for flatsat_platform_2
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -242,24 +242,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=outputs\CAMtastic\CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
-DocumentPath=outputs\CAMtastic\CAMtastic6.Cam
+DocumentPath=outputs\CAMtastic\camtastic_v01.cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -276,748 +259,392 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=.\outputs\assembly_odb\assembly_odb.REP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=outputs\assembly_odb\assembly_odb.REP
 DItemRevisionGUID=
 
-[GeneratedDocument3]
-DocumentPath=.\outputs\assembly_pick_place\assembly_pick_place.txt
-DItemRevisionGUID=
-
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=outputs\assembly_pick_place\assembly_pick_place.txt
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=.\fabrication\bom-flatsat_platform_2.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument3]
 DocumentPath=fabrication\bom-flatsat_platform_2.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument7]
-DocumentPath=.\outputs\bom\bom.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument4]
 DocumentPath=outputs\bom\bom.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument11]
+[GeneratedDocument5]
 DocumentPath=fabrication\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument6]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath=.\fabrication\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument15]
+[GeneratedDocument7]
 DocumentPath=fabrication\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument8]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for flatsat_platform_2\Design Rule Check - flatsat_2_PCB.html
 DItemRevisionGUID=
 
-[GeneratedDocument18]
-DocumentPath=.\outputs\drc\drc.html
-DItemRevisionGUID=
-
-[GeneratedDocument19]
+[GeneratedDocument10]
 DocumentPath=outputs\drc\drc.html
 DItemRevisionGUID=
 
-[GeneratedDocument20]
-DocumentPath=.\fabrication\Fabrication Testpoint Report for flatsat_2_PCB.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument21]
+[GeneratedDocument11]
 DocumentPath=fabrication\Fabrication Testpoint Report for flatsat_2_PCB.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument22]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\flatsat_gnd\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\flatsat_vcc\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\internal_plane_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\mechanical_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\top_assembly\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=.\fabrication\odb\symbols\oval87.2441x59.685_360\features
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\flatsat_gnd\features
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\flatsat_vcc\features
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\internal_plane_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\mechanical_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\top_assembly\features
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=.\outputs\assembly_odb\odb\symbols\oval87.2441x59.685_360\features
-DItemRevisionGUID=
-
-[GeneratedDocument54]
+[GeneratedDocument12]
 DocumentPath=fabrication\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument13]
 DocumentPath=fabrication\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument14]
 DocumentPath=fabrication\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument57]
+[GeneratedDocument15]
 DocumentPath=fabrication\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument58]
+[GeneratedDocument16]
 DocumentPath=fabrication\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
-[GeneratedDocument59]
+[GeneratedDocument17]
 DocumentPath=fabrication\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
-[GeneratedDocument60]
+[GeneratedDocument18]
 DocumentPath=fabrication\odb\steps\pcb\layers\flatsat_gnd\features
 DItemRevisionGUID=
 
-[GeneratedDocument61]
+[GeneratedDocument19]
 DocumentPath=fabrication\odb\steps\pcb\layers\flatsat_vcc\features
 DItemRevisionGUID=
 
-[GeneratedDocument62]
+[GeneratedDocument20]
 DocumentPath=fabrication\odb\steps\pcb\layers\internal_plane_1\features
 DItemRevisionGUID=
 
-[GeneratedDocument63]
+[GeneratedDocument21]
 DocumentPath=fabrication\odb\steps\pcb\layers\mechanical_1\features
 DItemRevisionGUID=
 
-[GeneratedDocument64]
+[GeneratedDocument22]
 DocumentPath=fabrication\odb\steps\pcb\layers\top_assembly\features
 DItemRevisionGUID=
 
-[GeneratedDocument65]
+[GeneratedDocument23]
 DocumentPath=fabrication\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument66]
+[GeneratedDocument24]
 DocumentPath=fabrication\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument67]
+[GeneratedDocument25]
 DocumentPath=fabrication\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument68]
+[GeneratedDocument26]
 DocumentPath=fabrication\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument69]
+[GeneratedDocument27]
 DocumentPath=fabrication\odb\symbols\oval87.2441x59.685_360\features
 DItemRevisionGUID=
 
-[GeneratedDocument70]
+[GeneratedDocument28]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument71]
+[GeneratedDocument29]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument72]
+[GeneratedDocument30]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument73]
+[GeneratedDocument31]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument74]
+[GeneratedDocument32]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
-[GeneratedDocument75]
+[GeneratedDocument33]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
-[GeneratedDocument76]
+[GeneratedDocument34]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\flatsat_gnd\features
 DItemRevisionGUID=
 
-[GeneratedDocument77]
+[GeneratedDocument35]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\flatsat_vcc\features
 DItemRevisionGUID=
 
-[GeneratedDocument78]
+[GeneratedDocument36]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\internal_plane_1\features
 DItemRevisionGUID=
 
-[GeneratedDocument79]
+[GeneratedDocument37]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\mechanical_1\features
 DItemRevisionGUID=
 
-[GeneratedDocument80]
+[GeneratedDocument38]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_assembly\features
 DItemRevisionGUID=
 
-[GeneratedDocument81]
+[GeneratedDocument39]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
-[GeneratedDocument82]
+[GeneratedDocument40]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
-[GeneratedDocument83]
+[GeneratedDocument41]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
-[GeneratedDocument84]
+[GeneratedDocument42]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
-[GeneratedDocument85]
+[GeneratedDocument43]
 DocumentPath=outputs\assembly_odb\odb\symbols\oval87.2441x59.685_360\features
 DItemRevisionGUID=
 
-[GeneratedDocument86]
-DocumentPath=.\fabrication\flatsat_2_PCB-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument87]
+[GeneratedDocument44]
 DocumentPath=fabrication\flatsat_2_PCB-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument88]
-DocumentPath=.\fabrication\flatsat_2_PCB-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument89]
+[GeneratedDocument45]
 DocumentPath=fabrication\flatsat_2_PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument90]
-DocumentPath=.\fabrication\flatsat_2_PCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument91]
+[GeneratedDocument46]
 DocumentPath=fabrication\flatsat_2_PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument92]
-DocumentPath=.\fabrication\flatsat_2_PCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument93]
+[GeneratedDocument47]
 DocumentPath=fabrication\flatsat_2_PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument94]
-DocumentPath=.\fabrication\flatsat_2_PCB.G2
-DItemRevisionGUID=
-
-[GeneratedDocument95]
+[GeneratedDocument48]
 DocumentPath=fabrication\flatsat_2_PCB.G2
 DItemRevisionGUID=
 
-[GeneratedDocument96]
-DocumentPath=.\fabrication\flatsat_2_PCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument97]
+[GeneratedDocument49]
 DocumentPath=fabrication\flatsat_2_PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument98]
-DocumentPath=.\fabrication\flatsat_2_PCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument99]
+[GeneratedDocument50]
 DocumentPath=fabrication\flatsat_2_PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument100]
-DocumentPath=.\fabrication\flatsat_2_PCB.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument101]
+[GeneratedDocument51]
 DocumentPath=fabrication\flatsat_2_PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument102]
-DocumentPath=.\fabrication\flatsat_2_PCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument103]
+[GeneratedDocument52]
 DocumentPath=fabrication\flatsat_2_PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument104]
-DocumentPath=.\fabrication\flatsat_2_PCB.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument105]
+[GeneratedDocument53]
 DocumentPath=fabrication\flatsat_2_PCB.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument106]
-DocumentPath=.\fabrication\flatsat_2_PCB.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument107]
+[GeneratedDocument54]
 DocumentPath=fabrication\flatsat_2_PCB.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument108]
-DocumentPath=.\fabrication\flatsat_2_PCB.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument109]
+[GeneratedDocument55]
 DocumentPath=fabrication\flatsat_2_PCB.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument110]
-DocumentPath=.\fabrication\flatsat_2_PCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument111]
+[GeneratedDocument56]
 DocumentPath=fabrication\flatsat_2_PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument112]
-DocumentPath=.\fabrication\flatsat_2_PCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument113]
+[GeneratedDocument57]
 DocumentPath=fabrication\flatsat_2_PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument114]
-DocumentPath=.\fabrication\flatsat_2_PCB.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument115]
+[GeneratedDocument58]
 DocumentPath=fabrication\flatsat_2_PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument116]
-DocumentPath=.\fabrication\flatsat_2_PCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument117]
+[GeneratedDocument59]
 DocumentPath=fabrication\flatsat_2_PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument118]
-DocumentPath=.\fabrication\flatsat_2_PCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument119]
+[GeneratedDocument60]
 DocumentPath=fabrication\flatsat_2_PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument120]
-DocumentPath=.\fabrication\flatsat_2_PCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument121]
+[GeneratedDocument61]
 DocumentPath=fabrication\flatsat_2_PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument122]
+[GeneratedDocument62]
 DocumentPath=outputs\board_3dmodels\flatsat_2_PCB.step
 DItemRevisionGUID=
 
-[GeneratedDocument123]
+[GeneratedDocument63]
 DocumentPath=outputs\board_3dmodels\flatsat_2_PCB.x_t
 DItemRevisionGUID=
 
-[GeneratedDocument124]
-DocumentPath=.\outputs\Gerber\Gerber.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument125]
+[GeneratedDocument64]
 DocumentPath=outputs\Gerber\Gerber.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument126]
-DocumentPath=.\outputs\Gerber\Gerber.G1
+[GeneratedDocument65]
+DocumentPath=outputs\Gerber\Gerber.G1
 DItemRevisionGUID=
 
-[GeneratedDocument127]
-DocumentPath=.\outputs\Gerber\Gerber.G2
-DItemRevisionGUID=
-
-[GeneratedDocument128]
+[GeneratedDocument66]
 DocumentPath=outputs\Gerber\Gerber.G2
 DItemRevisionGUID=
 
-[GeneratedDocument129]
-DocumentPath=.\outputs\Gerber\Gerber.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument130]
+[GeneratedDocument67]
 DocumentPath=outputs\Gerber\Gerber.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument131]
-DocumentPath=.\outputs\Gerber\Gerber.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument132]
+[GeneratedDocument68]
 DocumentPath=outputs\Gerber\Gerber.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument133]
-DocumentPath=.\outputs\Gerber\Gerber.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument134]
+[GeneratedDocument69]
 DocumentPath=outputs\Gerber\Gerber.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument135]
-DocumentPath=.\outputs\Gerber\Gerber.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument136]
+[GeneratedDocument70]
 DocumentPath=outputs\Gerber\Gerber.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument137]
-DocumentPath=.\outputs\Gerber\Gerber.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument138]
+[GeneratedDocument71]
 DocumentPath=outputs\Gerber\Gerber.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument139]
-DocumentPath=.\outputs\Gerber\Gerber.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument140]
+[GeneratedDocument72]
 DocumentPath=outputs\Gerber\Gerber.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument141]
-DocumentPath=.\outputs\Gerber\Gerber.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument142]
+[GeneratedDocument73]
 DocumentPath=outputs\Gerber\Gerber.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument143]
-DocumentPath=.\outputs\Gerber\Gerber.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument144]
+[GeneratedDocument74]
 DocumentPath=outputs\Gerber\Gerber.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument145]
-DocumentPath=.\outputs\Gerber\Gerber.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument146]
+[GeneratedDocument75]
 DocumentPath=outputs\Gerber\Gerber.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument147]
-DocumentPath=.\outputs\Gerber\Gerber.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument148]
+[GeneratedDocument76]
 DocumentPath=outputs\Gerber\Gerber.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument149]
-DocumentPath=.\outputs\Gerber\Gerber.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument150]
+[GeneratedDocument77]
 DocumentPath=outputs\Gerber\Gerber.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument151]
-DocumentPath=.\outputs\Gerber\Gerber.REP
-DItemRevisionGUID=
-
-[GeneratedDocument152]
+[GeneratedDocument78]
 DocumentPath=outputs\Gerber\Gerber.REP
 DItemRevisionGUID=
 
-[GeneratedDocument153]
-DocumentPath=.\fabrication\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument154]
-DocumentPath=.\outputs\assembly_odb\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument155]
+[GeneratedDocument79]
 DocumentPath=fabrication\odb\matrix\matrix
 DItemRevisionGUID=
 
-[GeneratedDocument156]
+[GeneratedDocument80]
 DocumentPath=outputs\assembly_odb\odb\matrix\matrix
 DItemRevisionGUID=
 
-[GeneratedDocument157]
-DocumentPath=.\outputs\nc_drills\nc_drills-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument158]
+[GeneratedDocument81]
 DocumentPath=outputs\nc_drills\nc_drills-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument159]
-DocumentPath=.\outputs\nc_drills\nc_drills-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument160]
+[GeneratedDocument82]
 DocumentPath=outputs\nc_drills\nc_drills-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument161]
-DocumentPath=.\outputs\nc_drills\nc_drills.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument162]
+[GeneratedDocument83]
 DocumentPath=outputs\nc_drills\nc_drills.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument163]
-DocumentPath=.\outputs\nc_drills\nc_drills.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument164]
+[GeneratedDocument84]
 DocumentPath=outputs\nc_drills\nc_drills.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument165]
-DocumentPath=.\fabrication\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument166]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument167]
+[GeneratedDocument85]
 DocumentPath=fabrication\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
-[GeneratedDocument168]
+[GeneratedDocument86]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
-[GeneratedDocument169]
+[GeneratedDocument87]
 DocumentPath=fabrication\Pick Place for flatsat_2_PCB.txt
 DItemRevisionGUID=
 
-[GeneratedDocument170]
-DocumentPath=.\fabrication\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument171]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument172]
+[GeneratedDocument88]
 DocumentPath=fabrication\odb\steps\pcb\profile
 DItemRevisionGUID=
 
-[GeneratedDocument173]
+[GeneratedDocument89]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\profile
 DItemRevisionGUID=
 
-[GeneratedDocument174]
-DocumentPath=.\fabrication\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument175]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument176]
+[GeneratedDocument90]
 DocumentPath=fabrication\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
-[GeneratedDocument177]
+[GeneratedDocument91]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
-[GeneratedDocument178]
-DocumentPath=.\outputs\test_points\test_points.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument179]
+[GeneratedDocument92]
 DocumentPath=outputs\test_points\test_points.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument180]
-DocumentPath=.\fabrication\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
-[GeneratedDocument181]
-DocumentPath=.\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
-[GeneratedDocument182]
+[GeneratedDocument93]
 DocumentPath=fabrication\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
-[GeneratedDocument183]
+[GeneratedDocument94]
 DocumentPath=outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=v0.1
+Name=DesignedBy
+Value=João Cláudio Elsen Barcellos
 
 [Parameter2]
 Name=ProjectCode
 Value=FLATSAT2
 
 [Parameter3]
-Name=DesignedBy
-Value=João Cláudio Elsen Barcellos
+Name=ProjectRevision
+Value=v0.1
 
 [Configuration1]
 Name=Sources
@@ -1066,7 +693,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for flatsat_platform_2
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1198,7 +825,7 @@ OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=157480315|ViewY=98425197|LookAtX=78740160|LookAtY=49212600|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=9.08303998619378E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig= 
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=157480315|ViewY=98425197|LookAtX=78740160|LookAtY=49212600|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=9.08303998619378E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType3=PCB 3D Video
 OutputName3=PCB 3D Video
 OutputDocumentPath3=
