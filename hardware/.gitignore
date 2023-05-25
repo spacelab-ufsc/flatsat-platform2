@@ -1,10 +1,33 @@
+# For PCBs designed using Altium: https://www.altium.com/
 
-# Altium version control and status files
-*History
-*__Previews
-Project Outputs*
-*.log
+# Thumbnail files
+**/__Previews/
+
+# Backup archives
+**/History/
+
+# Generated output files
+Project\ Outputs*/
+Project\ Logs*/
+
+# Various Altium files
+*.~
+*.tmp
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbStructure
 *.Dat
-Status Report.txt
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+Status\ Report.txt
 
-
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
