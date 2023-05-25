@@ -3,7 +3,7 @@
     <br>
 </h1>
 
-<h4 align="center">FlatSat test platform 2.0 hardware project (sources, outputs, and documentation).</h4>
+<h4 align="center">FlatSat platform's hardware project (sources, outputs, and documentation).</h4>
 
 <p align="center">
     <a href="https://github.com/spacelab-ufsc/spacelab#versioning">
