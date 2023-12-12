@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center">  
     FLATSAT PLATFORM 2.0
     <br>
 </h1>
