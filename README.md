@@ -1,4 +1,7 @@
-# FLATSAT PLATFORM 2.0
+<h1 align="center">
+	FLATSAT PLATFORM V2.0
+	<br>
+</h1>
 
 <p align="center">
     <a href="https://github.com/spacelab-ufsc/spacelab#versioning">
