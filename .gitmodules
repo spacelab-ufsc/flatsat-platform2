@@ -1,0 +1,9 @@
+[submodule "hardware"]
+	path = hardware
+	url = git@github.com:spacelab-ufsc/flatsat-platform2-hardware.git
+[submodule "firmware"]
+	path = firmware
+	url = git@github.com:spacelab-ufsc/flatsat-platform2-firmware.git
+[submodule "documentation"]
+	path = documentation
+	url = git@github.com:spacelab-ufsc/flatsat-platform2-documentation.git
